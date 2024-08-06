@@ -1,10 +1,14 @@
 import { defineConfig } from 'vite'
 import Inspect from 'vite-plugin-inspect'
-import Unplugin from '../src/vite'
+import UnpluginAlias2 from '../src/vite'
 
 export default defineConfig({
   plugins: [
     Inspect(),
-    Unplugin(),
+    UnpluginAlias2({
+      entries: [
+        { find: 'utils', replacement: './isOdd.ts' },
+      ],
+    }),
   ],
 })
