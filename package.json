@@ -1,7 +1,7 @@
 {
   "name": "unplugin-alias2",
   "type": "module",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "packageManager": "pnpm@8.6.12",
   "description": "A universal bundler plugin for defining aliases when bundling packages.",
   "license": "MIT",
