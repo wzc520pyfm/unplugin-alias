@@ -1,17 +1,17 @@
 {
-  "name": "unplugin-starter",
+  "name": "unplugin-alias2",
   "type": "module",
   "version": "0.1.0",
   "packageManager": "pnpm@8.6.12",
   "description": "",
   "license": "MIT",
-  "homepage": "https://github.com/antfu/unplugin-starter#readme",
+  "homepage": "https://github.com/wzc520pyfm/unplugin-alias#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antfu/unplugin-starter.git"
+    "url": "git+https://github.com/wzc520pyfm/unplugin-alias.git"
   },
   "bugs": {
-    "url": "https://github.com/antfu/unplugin-starter/issues"
+    "url": "https://github.com/wzc520pyfm/unplugin-alias/issues"
   },
   "keywords": [
     "unplugin",
@@ -122,7 +122,7 @@
     }
   },
   "dependencies": {
-    "unplugin": "^1.5.1"
+    "unplugin": "^1.12.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.2.2",
